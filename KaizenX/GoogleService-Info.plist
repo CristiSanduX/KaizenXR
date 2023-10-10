@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDHnLfvdSL6OJH6EEtjlg4oSV9SJ1gZOY0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>419029974416</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ro.csx.KaizenX</string>
+	<key>PROJECT_ID</key>
+	<string>kaizenx-2025</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kaizenx-2025.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:419029974416:ios:d51e69c12016c588620715</string>
+</dict>
+</plist>
