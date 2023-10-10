@@ -14,6 +14,8 @@
 		1C6175CC2AD4B65E0071C83F /* KaizenXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6175CB2AD4B65E0071C83F /* KaizenXTests.swift */; };
 		1C6175D62AD4B65E0071C83F /* KaizenXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6175D52AD4B65E0071C83F /* KaizenXUITests.swift */; };
 		1C6175D82AD4B65E0071C83F /* KaizenXUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6175D72AD4B65E0071C83F /* KaizenXUITestsLaunchTests.swift */; };
+		1C6175E72AD4C7FD0071C83F /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6175E62AD4C7FD0071C83F /* SplashScreenView.swift */; };
+		1C6350B42AD5781900E7031D /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6350B32AD5781900E7031D /* ContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		1C6175D12AD4B65E0071C83F /* KaizenXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaizenXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6175D52AD4B65E0071C83F /* KaizenXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaizenXUITests.swift; sourceTree = "<group>"; };
 		1C6175D72AD4B65E0071C83F /* KaizenXUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaizenXUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C6175E62AD4C7FD0071C83F /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		1C6350B32AD5781900E7031D /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				1C6175BC2AD4B65C0071C83F /* ContentView.swift */,
 				1C6175BE2AD4B65E0071C83F /* Assets.xcassets */,
 				1C6175C02AD4B65E0071C83F /* Preview Content */,
+				1C6175E62AD4C7FD0071C83F /* SplashScreenView.swift */,
+				1C6350B32AD5781900E7031D /* ContainerView.swift */,
 			);
 			path = KaizenX;
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C6350B42AD5781900E7031D /* ContainerView.swift in Sources */,
 				1C6175BD2AD4B65C0071C83F /* ContentView.swift in Sources */,
 				1C6175BB2AD4B65C0071C83F /* KaizenXApp.swift in Sources */,
+				1C6175E72AD4C7FD0071C83F /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
