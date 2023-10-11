@@ -13,7 +13,7 @@ struct ContainerView: View {
     
     var body: some View {
         if !isSplashScreenView {
-            ContentView()
+            AuthenticationView()
         }
         else {
             SplashScreenView(isPresented: $isSplashScreenView)

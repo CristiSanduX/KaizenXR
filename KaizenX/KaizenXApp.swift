@@ -24,7 +24,9 @@ struct KaizenXApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContainerView()
+            NavigationStack{
+                AuthenticationView()
+            }
         }
     }
 }

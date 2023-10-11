@@ -22,6 +22,7 @@
 		1C6350BE2AD5BE6200E7031D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1C6350BD2AD5BE6200E7031D /* FirebaseAuth */; };
 		1C6350C12AD5C3EE00E7031D /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6350C02AD5C3EE00E7031D /* AuthenticationView.swift */; };
 		1C6350C32AD6DF1700E7031D /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6350C22AD6DF1700E7031D /* SignInEmailView.swift */; };
+		1C6350C52AD7586D00E7031D /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6350C42AD7586D00E7031D /* AuthenticationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		1C6350B52AD5A32D00E7031D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1C6350C02AD5C3EE00E7031D /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		1C6350C22AD6DF1700E7031D /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
+		1C6350C42AD7586D00E7031D /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			children = (
 				1C6350C02AD5C3EE00E7031D /* AuthenticationView.swift */,
 				1C6350C22AD6DF1700E7031D /* SignInEmailView.swift */,
+				1C6350C42AD7586D00E7031D /* AuthenticationManager.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			files = (
 				1C6350B42AD5781900E7031D /* ContainerView.swift in Sources */,
 				1C6350C32AD6DF1700E7031D /* SignInEmailView.swift in Sources */,
+				1C6350C52AD7586D00E7031D /* AuthenticationManager.swift in Sources */,
 				1C6175BD2AD4B65C0071C83F /* ContentView.swift in Sources */,
 				1C6175BB2AD4B65C0071C83F /* KaizenXApp.swift in Sources */,
 				1C6175E72AD4C7FD0071C83F /* SplashScreenView.swift in Sources */,
