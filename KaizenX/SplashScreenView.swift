@@ -37,9 +37,6 @@ struct SplashScreenView: View {
                                .opacity(opacity2)
             }
             .scaleEffect(scale)
-            
-           
-            
         }
         .opacity(opacity3)
         .onAppear{
@@ -61,15 +58,12 @@ struct SplashScreenView: View {
             }
             
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.5, execute: {
-                withAnimation(.easeIn(duration: 0.35)) {
+                withAnimation(.easeIn(duration: 0.50)) {
                     scale = CGSize(width: 50, height: 50)
-                    
                     isPresented.toggle()
                    
                 }
             })
-            
-           
         }
     }
 }
